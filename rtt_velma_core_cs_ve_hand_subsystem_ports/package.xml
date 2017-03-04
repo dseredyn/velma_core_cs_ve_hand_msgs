@@ -1,0 +1,33 @@
+<package>
+  <name>rtt_velma_core_cs_ve_hand_subsystem_ports</name>
+  <version>0.0.0</version>
+  <description>
+
+    Provides an rtt typekit for ROS rtt_velma_core_cs_ve_hand_subsystem_ports messages.
+
+  </description>
+  <maintainer email="orocos-dev@lists.mech.kuleuven.be">Orocos Developers</maintainer>
+  <author>create_rtt_msgs</author>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rtt_ros</build_depend>
+  <build_depend>rtt_subsystem_ports</build_depend>
+  <build_depend>common_interfaces</build_depend>
+  <build_depend>velma_core_ve_hand_re_hand_msgs</build_depend>
+  <build_depend>velma_core_cs_ve_hand_msgs</build_depend>
+
+  <run_depend>rtt_ros</run_depend>
+  <run_depend>rtt_subsystem_ports</run_depend>
+  <run_depend>velma_core_ve_hand_re_hand_msgs</run_depend>
+  <run_depend>velma_core_cs_ve_hand_msgs</run_depend>
+  <export>
+    <rtt_ros>
+      <plugin_depend>rtt_velma_core_ve_hand_re_hand_subsystem_ports</plugin_depend>
+    </rtt_ros>
+  </export>
+
+</package>
+
+
